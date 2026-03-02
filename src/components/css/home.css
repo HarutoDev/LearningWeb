@@ -1,0 +1,6 @@
+main {
+  padding-top: 80px; /* 👈 hoặc bằng chiều cao thật của navbar */
+}
+body {
+    font-size: larger;
+}

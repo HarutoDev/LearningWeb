@@ -1,12 +1,12 @@
-import "./App.css";
-import ProductCard from "./components/ProductCard";
+import "./components/css/App.css";
+import Navbar from "./components/navbar";
+import Home from "./components/pages/home";
 
 function App() {
   return (
     <>
-      <div className="min-h-screen bg-slate-100 flex items-center justify-center">
-        <ProductCard />
-      </div>
+      <Navbar />
+      <Home />
     </>
   );
 }
